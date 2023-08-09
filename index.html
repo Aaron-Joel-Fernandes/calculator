@@ -1,0 +1,39 @@
+<html>
+<head>
+ <link rel="stylesheet" href="index.css">
+ <script src="index.js"></script>
+</head>
+<body>
+    <div id="box">
+      <div id="operand1"></div>
+      <div id="operator1"></div>
+      <div id="operand2"></div>
+    </div>
+    <table>
+    <tr>
+    <button class="number" click="onClickDecideOperation(1)">1</button>
+    <button class="number" onclick="onClickDecideOperation(2)">2</button>
+    <button class="number" onclick="onClickDecideOperation(3)">3</button>
+    <button class="symbol" onclick="onClickDecideOperation('-')">-</button>
+    </tr><br>
+    <tr>
+    <button class="number" onclick="onClickDecideOperation(4)">4</button>
+    <button class="number" onclick="onClickDecideOperation(5)">5</button>
+    <button class="number" onclick="onClickDecideOperation(6)">6</button>
+    <button class="symbol" onclick="onClickDecideOperation('+')">+</button>
+    </tr><br>
+    <tr>
+    <button class="number" onclick="onClickDecideOperation(7)">7</button>
+    <button class="number" onclick="onClickDecideOperation(8)">8</button>
+    <button class="number" onclick="onClickDecideOperation(9)">9</button>
+    <button class="symbol" onclick="onClickDecideOperation('*')">x</button>
+    </tr><br>
+    <tr>
+    <button  class="number" onclick="onClickDecideOperation(0)">0</button>
+    <button  class="number" onclick="onClickDecideOperation('=')">=</button>
+    <button  class="number" onclick="onClickClearAll()">c</button>    
+    <button  class="symbol" onclick="onClickDecideOperation('/')">/</button>
+    </tr><br>
+    </table>
+</body>
+</html>

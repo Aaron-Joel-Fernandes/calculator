@@ -1,0 +1,15 @@
+#box{
+    width: 110;
+    height: 10%;
+    border: 10px solid grey;
+    background-color: lightgrey;
+}
+
+button{
+  padding: 10px;
+  border: solid white;
+}
+
+.symbol{
+    width:32px
+}
